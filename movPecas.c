@@ -1,28 +1,30 @@
 #include <stdio.h>
  int main(){
-    int t = 1;
-    int b = 1;
-    int r = 1;
+    int torre = 1;
+    int bispo = 1;
+    int rainha = 1;
     // movimento da torre
     printf("***Movimento da Torre***\n");
-    while (t <= 5) {
+    while (torre <= 5) {
         printf("Direita\n"); //direção que a peça foi movimentada
-        t++;
+        torre++;
     }
 
     // movimento do bispo
     printf("***Movimento do Bispo***\n");
     do {
         printf("Diagonal direita\n");//direção que a peça foi movimentada
-        b++;
-    } while (b<=5 );
+        bispo++;
+    } while (bispo <=5 );
 
     // movimento da rainha
     printf("***Movimento da Rainha***\n");
-    for(r = 0; r < 8; r++){
+    for(rainha = 0; rainha < 8; rainha++){
 
         printf("esquerda\n");//direção que a peça foi movimentada
     }
+
+
 
    return 0;
 }
